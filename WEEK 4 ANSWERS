@@ -1,0 +1,149 @@
+WEEK 4 ANSWERS
+Question 1)
+
+When slicing in Python what does the “0” in this statement [0:2] specify ?
+
+It specifies the position to start the slice
+
+
+
+
+Question 2)
+
+If var = “01234567” what Python statement would print out only the odd elements ?
+
+print(var[1::2])
+
+
+
+
+Question 3)
+
+Consider the string Name=”EMILY”, what statement would return the index of 0 ?
+
+Name.find("E")
+
+
+
+
+Question 4)
+
+What is the type of the following: 1.0
+
+float
+
+
+
+
+Question 5)
+
+What is the result of the following code segment: int(3.99)
+
+3
+
+
+
+
+Question 6)
+
+What is the result of the following code segment:1/2 ?
+
+0.5 
+
+
+
+
+Question 7)
+
+In Python 3, what is the type of the variable x after the following: x=2/2 ?
+
+float
+
+
+
+
+Question 8)
+
+Dictionary items can be:
+
+Numerous data types
+
+
+
+
+Question 9)
+
+What is a tuple ?
+
+A collection that is ordered and unchangeable
+
+
+
+
+Question 10)
+
+What is the result of the following operation: '1:2,3:4'.split(':') ?
+
+['1', '2,3', '4']
+
+
+
+
+Question 11)
+
+What is an important difference between lists and tuples ?
+
+Lists are mutable tuples are not 
+
+
+
+
+Question 12)
+
+How do you cast the list A to the set a ?
+
+a=set(A)
+
+
+
+
+Question 13)
+
+If x=1 what will produce the below output ?
+
+Hi
+
+Mike
+
+
+
+
+
+if(x!=1): 
+
+print('Hello') 
+
+ else: 
+
+    print('Hi') 
+
+ print('Mike') 
+
+
+
+
+
+Question 14)
+
+What statement will execute the remaining code no matter the end result ?
+
+Finally
+
+
+
+
+Question 15)
+
+What add function would return ‘4’ ?
+
+def add(x): return(x+x) add(2) 
