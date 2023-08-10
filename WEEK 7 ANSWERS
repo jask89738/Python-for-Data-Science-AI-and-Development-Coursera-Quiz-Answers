@@ -1,0 +1,67 @@
+WEEK 7 ANSWERS
+Question 41)
+
+Consider the file object: File1.What would the following line of code output?
+
+file1.readline(4) 
+
+
+
+It would output the first 4 characters from the text file
+
+
+
+
+Question 42)
+
+Which line of code is in the mode of append ?
+
+with open("Example.txt","a") as file1:
+
+
+
+
+Question 43)
+In Python what statement would print out the first two elements “Li” of “Lizz” ?
+print(name[0:2])
+
+
+Question 44)
+In Python, if you executed var = '01234567', what would be the result of print(var[::2]) ?
+0246 
+
+
+Question 45)
+Consider the string Name=”EMILY”, what statement would return the index of 0 ?
+Name.find("E")
+
+
+
+
+
+Question 46)
+In Python what can be either a positive or negative number but does not contain a decimal point ?
+int
+
+
+Question 47)
+What following code segment would produce an output of “0.5” ?
+1/2
+
+
+Question 48)
+In Python 3 what does regular division always result in ?
+Float
+
+
+Question 49)
+What does the index of “1” correspond to in a list or tuple ?
+The second element
+
+
+Question 50)
+Given the function add shown below, what does the following return ?
+
+ def add(x): return(x+x) add('1') 
+
+'11'
