@@ -1,0 +1,69 @@
+WEEK 6 ANSWERS 
+Question 31)
+In Python 3 what does regular division always result in ?
+Float
+
+
+Question 32)
+Whatdata type must have unique keys ?
+Dictionary
+
+
+Question 33)
+What is the syntax to obtain the first element of the tuple ?
+
+A=('a','b','c')
+
+A[0]
+
+
+Question 34)
+What does the split() method return from a list of words ?
+The list of words in a string separated by a delimiter
+
+
+Question 35)
+What is an important difference between lists and tuples ?
+
+Lists are mutable tuples are not 
+
+
+Question 36)
+What code segment is used to cast list “B” to the set “b” ?
+b=set(B)
+
+
+Question 37)
+What code segment would output the following ?
+
+2
+3
+4
+
+for i in range(1,5): if (i!=1): print(i)
+
+
+Question 38)
+What is the result of the following lines of code ?
+
+ a=np.array([0,1,0,1,0]) b=np.array([1,0,1,0,1]) a*b 
+
+array([0, 0, 0, 0, 0])
+
+
+
+Question 39)
+What is the result of the following lines of code ?
+
+a=np.array([10,9,8,7,6]) a+1
+
+array([11,10,9,8,7])
+
+
+
+
+Question 40)
+
+How would you select the columns with the headers: Artist, Length and Genre from the dataframe df and assign them to the variable y ?
+
+y=df[['Artist','Length','Genre']]
