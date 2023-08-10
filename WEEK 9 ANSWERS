@@ -1,0 +1,76 @@
+WEEK 9 ANSWERS
+Question 61)
+What mode over writes existing text in a file ?
+Write “w”
+
+
+Question 62)
+If var = “01234567” what Python statement would print out only the even elements?
+print(var[::2]) 
+
+
+
+Question 63)
+In Python 3 what following code segment will produce a float ?
+1/2
+
+
+
+Question 64)
+What will this code segment “A[0]” obtain from a list or tuple ?
+The first element of a list or tuple
+
+
+Question 65)
+What line of code would produce this output: ['1','2','3','4'] ?
+
+'1,2,3,4'.split(',')
+
+
+
+
+Question 66)
+What is an error that occurs during the execution of code ?
+Exception
+
+
+Question 67)
+What add function would return ‘2’ ?
+def add(x): return(x+x) add(1) 
+
+
+
+Question 68)
+What is the output of the following few lines of code ?
+
+ A=['1','2','3'] for a in A: print(2*a) 
+
+
+11
+22
+33
+
+
+Question 69)
+What code segment would output the following ?
+
+2
+
+for i in range(1,5): if (i==2): print(i)
+
+
+
+Question 70)
+What is the width of the rectangle in the class Rectangle?
+
+class Rectangle(object): def __init__(self,width=2,height =3,color='r'): self.height=height self.width=width self.color=color def drawRectangle(self): import matplotlib.pyplot as plt plt.gca().add_patch(plt.Rectangle((0, 0),self.width, self.height ,fc=self.color)) plt.axis('scaled') plt.show() 
+
+2
+
+
+Question 71)
+What is the result of the following lines of code ?
+
+ a=np.array([0,1,0,1,0]) b=np.array([1,0,1,0,1]) a+b 
+
+array([1, 1, 1, 1, 1
