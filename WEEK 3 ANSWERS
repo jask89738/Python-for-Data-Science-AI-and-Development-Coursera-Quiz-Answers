@@ -1,0 +1,169 @@
+WEEK 3 ANSWERS
+Question 1)
+
+What is the output of the following code ?
+
+x="Go"
+    if(x=="Go"):
+      print('Go ')
+else:
+      print('Stop')
+
+
+
+
+Go Mike
+
+
+
+
+Question 2)
+
+What is the result of the following lines of code ?
+
+
+x=1
+x>-5
+
+
+True
+
+
+Question 3
+
+What is the output of the following few lines of code ?
+
+
+x=5
+while(x!=2):
+print(x)
+x=x-1
+
+
+
+5
+4
+3
+
+
+
+Question 4)
+
+What is the result of running the following lines of code ?
+
+
+
+class Points(object):
+def __init__(self,x,y):
+
+self.x=x
+
+self.y=y
+
+def print_point(self):
+
+print('x=',self.x,' y=',self.y)
+
+
+
+
+x=1 y=2
+
+
+Question 5)
+
+What is the output of the following few lines of code ?
+
+
+for i,x in enumerate(['A','B','C']):
+
+print(i+1,x)
+
+
+1 A
+2 B
+3 C
+
+
+
+Question 6)
+
+What is the result of running the following lines of code ?
+
+
+class Points(object):
+
+def __init__(self,x,y):
+
+self.x=x
+
+self.y=y
+
+def print_point(self):
+
+print('x=',self.x,' y=',self.y)
+
+
+x=2 y=2
+
+
+
+Question 7)
+
+Consider the function step, when will the function return a value of 1 ?
+
+
+def step(x):
+
+if x>0:
+
+y=1
+
+else:
+
+y=0
+
+return y
+
+
+if x is larger than 0
+
+
+
+Question 8)
+
+What is the output of the following lines of code ?
+
+
+a=1
+
+def do(x):
+
+a=100
+
+return(x+a)
+
+print(do(1))
+
+
+101
+
+
+
+Question 9)
+
+Write a function name add that takes two parameter a and b, then return the output of a + b (Do not use any other variable! You do not need to run it. Only write the code about how you define it.)
+
+
+def add(a,b):
+ return a + b
+
+
+
+
+Question 10)
+
+Why is it best practice to have multiple except statements with each type of error labeled correctly?
+
+ In order to know what type of error was thrown and the location within the program
+
