@@ -1,0 +1,68 @@
+WEEK 8 ANSWERS
+uestion 51)
+What function returns a sorted list ?
+sorted()
+
+
+Question 52)
+What segment of code would output the following ?
+11
+22
+33
+
+A=['1','2','3'] for a in A: print(2*a) 
+ 
+
+
+Question 53)
+What line of code would produce the following: array([11, 11, 11, 11, 11]) ?
+a=np.array([1,1,1,1,1]) a+10
+
+
+Question 54)
+In Python what data type is used to represent text and not numbers ?
+str
+
+
+Question 55)
+Whatdata type must have unique keys ?
+Dictionary
+
+
+Question 56)
+
+Lists are:
+Mutable
+
+
+
+Question 57)
+What is the process of forcing your program to output an error message when it encounters an issue ?
+Exception handling
+
+
+
+Question 58)
+A list cannot be sorted if it contains:
+
+strings and numeric values
+
+
+
+
+Question 59)
+What is the method defined in the class Rectangle used to draw the rectangle?
+
+class Rectangle(object): def __init__(self,width=2,height =3,color='r'): self.height=height self.width=width self.color=color def drawRectangle(self): import matplotlib.pyplot as plt plt.gca().add_patch(plt.Rectangle((0, 0),self.width, self.height ,fc=self.color)) plt.axis('scaled') plt.show() 
+
+
+drawRectangle
+
+
+
+Question 60)
+What is the result of the following lines of code ?
+
+ a=np.array([0,1,0,1,0]) b=np.array([1,0,1,0,1]) a+b 
+
+array([1, 1, 1, 1, 1])
